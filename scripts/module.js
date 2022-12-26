@@ -125,7 +125,6 @@ Hooks.on("renderActorSheet", applicationRendered);
 Hooks.on("renderItemSheet", applicationRendered);
 
 function applicationRendered(_app, [html]) {
-	console.log(html);
 	updateDOM([...html.querySelectorAll("*")]);
 }
 
@@ -151,7 +150,6 @@ function getSelector(element) {
 					if (!value || name === "style" || name.startsWith("aria-")) return;
 					return value.split(" ").map(v => {
 						if (!v || (name === "class" && v === "theRoom") || v === "active") return;
-						console.log(name, v);
 						if (name === "class") {
 							return `.${v}`;
 						} else if (name === "id") {
