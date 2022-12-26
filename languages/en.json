@@ -1,0 +1,28 @@
+{
+    "zap": {
+        "keybindings": {
+            "hide": {
+                "name": "Hide",
+                "hint": "Visually hide the element"
+            },
+            "destroy": {
+                "name": "Destroy",
+                "hint": "Remove the element completely"
+            }
+        },
+        "settings": {
+            "reset": {
+                "name": "Reset all selectors",
+                "label": "Reset",
+                "hint": "Clear all stored selectors",
+                "confirm": {
+                    "title": "Reset all selectors?",
+                    "content": "Are you sure you want to reset all selectors? This cannot be undone."
+                }
+            }
+        },
+        "notifications": {
+            "invalid": "Invalid selectors have been removed from the store."
+        }
+    }
+}

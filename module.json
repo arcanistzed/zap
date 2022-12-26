@@ -1,0 +1,57 @@
+{
+	"id": "zap",
+	"name": "zap",
+	"title": "Zap!",
+	"description": "Zap! Remove or hide anything from the interface of your Foundry VTT game.",
+	"authors": [
+		{
+			"name": "Arcanist",
+			"url": "https://arcanist.me",
+			"email": "arcanistzed@gmail.com",
+			"discord": "arcanist#4317",
+			"reddit": "u/arcanistzed"
+		}
+	],
+	"url": "This is auto replaced",
+	"license": "https://github.com/arcanistzed/zap/blob/main/LICENSE",
+	"readme": "https://github.com/arcanistzed/zap/blob/main/README.md",
+	"bugs": "https://github.com/arcanistzed/zap/issues/new/choose",
+	"changelog": "https://github.com/arcanistzed/zap/blob/main/CHANGELOG.md",
+	"flags": {
+		"allowBugReporter": true
+	},
+	"version": "This is auto replaced",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [
+		"library/theroom.min.js"
+	],
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"styles": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"packs": [],
+	"relationships": {},
+	"dependencies": [],
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"library": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "https://i.imgur.com/2Jo2dPP.png"
+		}
+	]
+}
