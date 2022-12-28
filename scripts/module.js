@@ -193,7 +193,6 @@ function updateDOM(elements) {
 	// If the element is in the store, hide or destroy it
 	elements.forEach(element => {
 		hidden.forEach(selector => {
-			console.log(element);
 			if (element.matches(selector)) {
 				element.style.visibility = "hidden";
 			}
