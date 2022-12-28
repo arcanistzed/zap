@@ -200,7 +200,7 @@ function updateDOM(elements) {
 		});
 		destroyed.forEach(selector => {
 			if (element.matches(selector)) {
-				element.remove();
+				element.style.display = "none";
 			}
 		});
 	});
