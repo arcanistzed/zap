@@ -10,3 +10,8 @@ Remove console log
 
 * Change color to bright yellow because it's more thematic
 * Use `display: none` instead of removing the element from the DOM in destroy mode to avoid potential incompatibilities
+
+## 0.1.3 - 28 Dec 2022
+
+* Fix file structure causing module to not be included in CI builds
+* Remove console log
